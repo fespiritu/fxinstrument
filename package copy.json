@@ -4,10 +4,7 @@
   "description": "Oanda FX instrument dropdown",
   "author": "fespiritu",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:fespiritu/fxinstrument.git"
-  },
+  "repository": "git@github.com:fespiritu/fxinstrument.git",
   "fxinstrument": "git+ssh://git@github.com:fespiritu/fxinstrument.git#v0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
