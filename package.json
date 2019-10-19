@@ -5,6 +5,7 @@
   "author": "fespiritu",
   "license": "MIT",
   "repository": "git@github.com:fespiritu/fxinstrument.git",
+  "fxinstrument": "git+ssh://git@github.com:fespiritu/fxinstrument.git#v0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -19,7 +20,8 @@
     "start": "rollup -c -w",
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "publish": "publish-to-git"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -44,6 +46,7 @@
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^1.2.0",
+    "publish-to-git": "^1.1.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
