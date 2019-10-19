@@ -23,6 +23,7 @@
     "deploy": "gh-pages -d example/build",
     "publish": "publish-to-git"
   },
+  
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",

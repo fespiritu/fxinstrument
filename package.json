@@ -1,6 +1,6 @@
 {
   "name": "fxinstrument",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Oanda FX instrument dropdown",
   "author": "fespiritu",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git@github.com:fespiritu/fxinstrument.git"
   },
-  "fxinstrument": "git+ssh://git@github.com:fespiritu/fxinstrument.git#v0.1.0",
+  "fxinstrument": "git+ssh://git@github.com:fespiritu/fxinstrument.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
