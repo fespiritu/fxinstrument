@@ -61,5 +61,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "enzyme": "^3.10.0"
+  }
 }
